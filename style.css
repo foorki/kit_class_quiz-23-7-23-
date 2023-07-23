@@ -1,0 +1,167 @@
+body {
+    background-image: url('bg3.jfif');
+    background-size: 120%;
+    opacity: 0.2px;
+}
+
+.mid {
+    position: left;
+    margin: 29px auto;
+}
+
+.navbar {
+    display:inline-flex;
+    float: right;
+    
+}
+
+.navbar li {
+    display: inline-block;
+  
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: black;
+    background-color: darkgoldenrod;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    text-decoration: none;
+    padding: 6px 40px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: white;
+}
+
+.centernav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: lightcoral;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    border: 2px solid brown;
+    border-radius: 20px;
+}
+
+.myhead1 {
+    display: inline-block;
+    margin: 0px 9px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: maroon;
+    position: relative;
+    top: 0px;
+    border-right: 1px solid black;
+    padding-right: 8px;
+    padding-left: 50px;
+}
+
+.myhead2 {
+    display: inline-block;
+    margin: 0px 9px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: maroon;
+    position: relative;
+    top: 0px;
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.myhead3 {
+    display: inline-block;
+    margin: 0px 9px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: maroon;
+    position: relative;
+}
+
+.mypara1 {
+    font-family: 'Caveat', cursive;
+    color: saddlebrown;
+    background: transparent;
+    font-size: 15px;
+}
+
+.myheadbox {
+    display: inline-block;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td {
+    border: 2px solid brown;
+    border-radius: 20px;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Courgette', cursive;
+    color: rgb(97, 4, 97);
+}
+
+th {
+    border: 2px solid brown;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Courgette', cursive;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(10, 138, 121);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(10, 138, 121);
+}
+
+th:nth-child(even) {
+    background-color: rgb(156, 145, 41);
+}
+
+th:nth-child(odd) {
+    background-color: rgb(156, 145, 41);
+}
+
+#tablebox {
+    border: white;
+    float: right;
+}
+.content{
+    font-size: 27px;
+    color: white;
+}
